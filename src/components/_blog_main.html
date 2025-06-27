@@ -1,0 +1,103 @@
+<div class="blog_main">
+    <div class="container">
+        <div class="blog_main">
+            <div class="left_blog">
+                @@include('../components/_blog_component.html', {
+                "img_blog": "/Gulp_morozic/assets/images/going",
+                "text_met_one": "Admin",
+                "text_met_two": "14 Oct 2022",
+                "text_met_three": "Wood",
+                "h1_text_blog": "Going all-in with millennial design",
+                })
+
+                @@include('../components/_blog_component.html', {
+                "img_blog": "/Gulp_morozic/assets/images/exploring",
+                "text_met_one": "Handmade",
+                "text_met_two": "14 Oct 2022",
+                "text_met_three": "Wood",
+                "h1_text_blog": "Exploring new ways of decorating",
+                })
+
+                @@include('../components/_blog_component.html', {
+                "img_blog": "/Gulp_morozic/assets/images/handmade",
+                "text_met_one": "Admin",
+                "text_met_two": "14 Oct 2022",
+                "text_met_three": "Wood",
+                "h1_text_blog": "Handmade pieces that took time to make",
+                })
+            </div>
+            <div class="right_blog">
+                <div class="search">
+                    <button type="button" class="sear">
+                        <p class="lupa"><svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20 20L15.514 15.506M18 9.5C18 11.7543 17.1045 13.9163 15.5104 15.5104C13.9163 17.1045 11.7543 18 9.5 18C7.24566 18 5.08365 17.1045 3.48959 15.5104C1.89553 13.9163 1 11.7543 1 9.5C1 7.24566 1.89553 5.08365 3.48959 3.48959C5.08365 1.89553 7.24566 1 9.5 1C11.7543 1 13.9163 1.89553 15.5104 3.48959C17.1045 5.08365 18 7.24566 18 9.5V9.5Z"
+                                    stroke="black" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </p>
+                    </button>
+                </div>
+                <div class="under_search">
+                    <div class="categor">
+                        <div class="h1_categor">
+                            <p>Categories</p>
+                        </div>
+                        @@include('../components/_categories.html', {
+                        "h1_categg": "Crafts",
+                        "nomer_str": "2",
+                        })
+                        @@include('../components/_categories.html', {
+                        "h1_categg": "Design",
+                        "nomer_str": "8",
+                        })
+                        @@include('../components/_categories.html', {
+                        "h1_categg": "Handmade",
+                        "nomer_str": "7",
+                        })
+                        @@include('../components/_categories.html', {
+                        "h1_categg": "Interior",
+                        "nomer_str": "1",
+                        })
+                        @@include('../components/_categories.html', {
+                        "h1_categg": "Wood",
+                        "nomer_str": "6",
+                        })
+                    </div>
+                    <div class="resent_post">
+                        <div class="h1_categor">
+                            <p>Recent Posts</p>
+                        </div>
+                        @@include('../components/_reset_p.html', {
+                        "img_reset": "/Gulp_morozic/assets/images/going_small",
+                        "h1_text_reset": "Going all-in with millennial design",
+                        "date_reset": "03 Aug 2022",
+                        })
+                        @@include('../components/_reset_p.html', {
+                        "img_reset": "/Gulp_morozic/assets/images/expol_small",
+                        "h1_text_reset": "Exploring new ways of decorating",
+                        "date_reset": "03 Aug 2022",
+                        })
+                        @@include('../components/_reset_p.html', {
+                        "img_reset": "/Gulp_morozic/assets/images/handmade_small",
+                        "h1_text_reset": "Handmade pieces that took time to make",
+                        "date_reset": "03 Aug 2022",
+                        })
+                        @@include('../components/_reset_p.html', {
+                        "img_reset": "/Gulp_morozic/assets/images/modern_small",
+                        "h1_text_reset": "Modern home in Milan",
+                        "date_reset": "03 Aug 2022",
+                        })
+                        @@include('../components/_reset_p.html', {
+                        "img_reset": "/Gulp_morozic/assets/images/color_small",
+                        "h1_text_reset": "Colorful office redesign",
+                        "date_reset": "03 Aug 2022",
+                        })
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        @@include('../components/_nomer_stranic.html')
+    </div>
+</div>

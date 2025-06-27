@@ -1,0 +1,39 @@
+<div class="prod_comp">
+    <div class="container">
+        <div class="prod_comp">
+            <form class="form_goto">
+                <legend class="go_to">Go to Product page for more Products</legend>
+                <input type="text" class="view" placeholder="View More">
+            </form>
+            <div class="kart_tovar">
+                @@include('../components/_kart_tovar.html', {
+                "kart": "/Gulp_morozic/assets/images/asgaard_sofa",
+                "title_ka": "Asgaard Sofa",
+                "price_ka": "Rs. 250,000.00",
+                "kol_stars": "4.7",
+                "kol_rew": "204 Review",
+                })
+
+                @@include('../components/_kart_tovar.html', {
+                "kart": "/Gulp_morozic/assets/images/asgaard_sofa",
+                "title_ka": "Outdoor Sofa Set",
+                "price_ka": "Rs. 224,000.00",
+                "kol_stars": "4.2",
+                "kol_rew": "145 Review",
+                })
+            </div>
+            <div class="addproduct">
+                <p class="text_add">Add A Product</p>
+                <a href="/Gulp_morozic/index_2.html">
+                    <div class="bth_add">
+                        <p>Choose a Product</p>
+                        <p><svg width="20" height="11" viewBox="0 0 20 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L10 9.5L19 1" stroke="white" stroke-width="2" stroke-linecap="round" />
+                            </svg></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
