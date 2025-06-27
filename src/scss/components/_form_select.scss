@@ -1,0 +1,47 @@
+.form_select {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.name_sel {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+    .form_select {
+        gap: 16px; 
+    }
+
+    .name_sel {
+        font-size: 14px; 
+    }
+
+    .seltt{
+        max-width: 300px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .form_select {
+        display: flex;
+        flex-direction: column;
+        gap: 12px; 
+    }
+
+    .name_sel {
+        font-size: 12px;
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .seltt {
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

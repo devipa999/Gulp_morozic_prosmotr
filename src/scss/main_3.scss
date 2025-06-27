@@ -1,0 +1,28 @@
+// ==== 1. Utils ====
+@use 'utils/variables';
+
+// ==== 2. Base styles ====
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/layout';
+
+// ==== 3. Layout ====
+@use 'layout/container';
+
+// ==== 4. Components ====
+// @use 'components/button';
+@use 'components/header';
+@use 'components/under_header';
+@use 'components/product';
+@use 'components/stars';
+@use 'components/description';
+@use 'components/related_products';
+@use 'components/card';
+@use 'components/footer';
+
+
+
+
+
+
+

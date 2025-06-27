@@ -1,0 +1,66 @@
+.zagolovok_FF{
+    text-align: center;
+}
+.h1_FF{
+    font-size: 20px;
+}
+.h2_FF{
+    font-size: 40px;
+}
+.body_FF{
+    background-image: url(/Gulp_morozic/assets/images/FF.webp);
+    // background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px; 
+    height: 720px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .body_FF {
+        width: 100%;
+        height: 363px; 
+        padding: 0 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .zagolovok_FF {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .h1_FF {
+        font-size: 18px;
+    }
+
+    .h2_FF {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .body_FF {
+        width: 100%;
+        height: 146px; 
+        padding: 0 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .zagolovok_FF {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .h1_FF {
+        font-size: 18px;
+    }
+
+    .h2_FF {
+        font-size: 32px;
+    }
+}
+

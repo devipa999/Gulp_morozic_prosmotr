@@ -1,0 +1,378 @@
+.product {
+    display: flex;
+    gap: 80px;
+    margin-top: 2vh;
+}
+
+.left_lenta {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 76px;
+
+}
+
+.center_sofa {
+    width: 423px;
+}
+
+.right_information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.h1_r_i {
+    font-size: 42px;
+    font-weight: 700px;
+    margin: 0;
+}
+
+.price {
+    color: #9F9F9F;
+    font-size: 24px;
+    margin: 0;
+}
+
+.reviews {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    // margin: 0;
+    margin-left: 0;
+}
+
+.linee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+.rews {
+    color: #9F9F9F;
+    font-size: 13px;
+    // margin: 0;
+
+}
+
+.description {
+    width: 424px;
+    font-size: 13px;
+    margin: 0;
+
+}
+
+.size{
+        margin: 0;
+}
+.text_size {
+    color: #9F9F9F;
+    font-size: 14px;
+    margin: 0;
+}
+
+.size_restangle {
+    display: flex;
+    gap: 16px;
+    margin-top: 1vh;
+}
+
+.one_size_restangle {
+    width: 30px;
+    height: 30px;
+    background-color: #B88E2F;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.two_size_restangle {
+    width: 30px;
+    height: 30px;
+    background-color: #F9F1E7;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+        margin: 0;
+}
+
+.color{
+    margin: 0;
+}
+.color_cicle{
+    display: flex;
+    gap: 16px;
+    margin-top: 1vh;
+}
+
+.purple_cicle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #816DFA;
+    margin: 0;
+}
+
+.black_cicle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    margin: 0;
+}
+
+.brown_cicle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #B88E2F;
+    margin: 0;
+}
+.three_button{
+    display: flex;
+    gap: 10px;
+}
+
+.bth8{
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    border: 1px solid;
+    background-color: transparent;
+    font-weight: 500;
+    border-radius: 15px;
+    width: 123px;
+    height: 65px;
+}
+.bth5{
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    border: 2px solid;
+    background-color: transparent;
+    font-weight: 500;
+    border-radius: 15px;
+    width: 215px;
+    height: 65px;
+}
+
+.bth6{
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    border: 2px solid;
+    background-color: transparent;
+    font-weight: 500;
+    border-radius: 15px;
+    width: 215px;
+    height: 65px;
+}
+.polosa{
+    width: 605px;
+    height: 1px;
+    background-color: #9F9F9F;
+    margin-top: 2vh;
+}
+
+.infa{
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    margin-top: 2vh;
+}
+
+.categ{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 16px;
+    color: #9F9F9F;
+    margin: 0;
+}
+
+.social{
+    display: flex;
+    gap: 25px;
+    margin-left: 0;
+}
+
+.pols{
+    width: 1440px;
+    height: 1px;
+    background-color: #9F9F9F;
+    margin-top: 2vh;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .product {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    overflow-x: auto; 
+  }
+
+  .left_lenta {
+    width: 50px;
+    gap: 16px;
+  }
+
+  .center_sofa {
+    width: 35vw;
+  }
+
+  .right_information {
+    gap: 10px;
+    width: 50vw;
+  }
+
+  .h1_r_i {
+    font-size: 22px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .reviews {
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .size_restangle,
+  .color_cicle,
+  .three_button,
+  .infa {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .bth5, .bth6 {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .bth8 {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .polosa, .pols {
+    width: 100%;
+  }
+
+  .social {
+    gap: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .product {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .color_cicle {
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  .left_lenta {
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    overflow-x: auto;
+  }
+
+  .center_sofa {
+    width: 90vw;
+    height: 70vw;
+  }
+
+  .right_information {
+    width: 90vw;
+    gap: 8px;
+  }
+
+  .h1_r_i {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .price {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .reviews {
+    justify-content: center;
+    gap: 5px;
+    font-size: 11px;
+  }
+
+  .description {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .size_restangle {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .color_cicle {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .three_button {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .infa {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .bth5,
+  .bth6,
+  .bth8 {
+    width: 120%;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .polosa,
+  .pols {
+    width: 90%;
+    margin: auto;
+  }
+
+  .social {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .categ {
+    font-size: 14px;
+    text-align: center;
+  }
+}

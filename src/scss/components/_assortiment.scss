@@ -1,0 +1,147 @@
+.zagolovok{
+    text-align: center;
+    margin-top: 3vh;
+}
+.bold{
+    font-size: 32px;
+}
+.podpus{
+    font-size: 20px;
+}
+.kategoria{
+    margin-top: 3vh;
+    display: flex;
+    // gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.kat1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text_kat1{
+    font-size: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .zagolovok {
+        margin-top: 2vh;
+        padding: 0 20px;
+    }
+
+    .bold {
+        font-size: 28px;
+    }
+
+    .podpus {
+        font-size: 18px;
+    }
+
+    .kategoria {
+        margin-top: 2vh;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .kat1 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .text_kat1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .zagolovok {
+        margin-top: 2vh;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .bold {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .podpus {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .kategoria {
+        margin-top: 2vh;
+        gap: 15px;
+        padding: 0 15px;
+        flex-direction: column;
+    }
+
+    .kat1 {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .kat1 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .text_kat1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .znak {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .head {
+        height: 80px;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+
+    .modal {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .modal__btns {
+        gap: 10px;
+    }
+
+    .line_modak {
+        width: 100%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .right_block {
+        gap: 20px;
+    }
+
+    .modal__subtitle {
+        gap: 40px;
+    }
+}

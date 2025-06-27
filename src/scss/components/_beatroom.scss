@@ -1,0 +1,176 @@
+.beatroom {
+    background-color: #FCF8F3;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.body_br {
+    // background-color: aqua; 
+    height: 585px;
+    display: flex;
+    gap: 40px;
+}
+
+.text_br {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.h1_br {
+    font-size: 40px;
+    margin-left: 0;
+    width: 422px;
+}
+
+.h2_br {
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.bth2 {
+    width: 180px;
+    height: 78px;
+    background-color: #B88E2F;
+    color: white;
+    font-size: 16px;
+    margin-left: 0;
+    border: none;
+}
+
+.bedroom2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.circle {
+    display: flex;
+    margin-left: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .beatroom {
+        height: auto;
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .beatr {
+        display: none !important;
+    }
+
+    .body_br {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        width: 304px;
+        margin: 0 auto;
+    }
+
+    .text_br {
+        width: 100%;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .h1_br {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .h2_br {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .bth2 {
+        width: 140px;
+        height: 50px;
+        font-size: 14px;
+        margin: 10px 0 0 0;
+    }
+
+    .bedroom1 {
+        width: 270px;
+        height: 340px;
+    }
+
+    .circle {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .beatroom {
+        height: auto;
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beatr {
+        display: none !important;
+    }
+
+    .body_br {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text_br {
+        width: 100%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .h1_br {
+        font-size: 24px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .h2_br {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .bth2 {
+        width: 140px;
+        height: 50px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .bedroom2 {
+        width: 100%;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circle {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .bedroom1 {
+        width: 270px;
+        height: 340px;
+    }
+}

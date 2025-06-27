@@ -1,0 +1,26 @@
+.text_related{
+    font-size: 36px;
+    font-weight: 700;
+        display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.home_cards{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.bth4{
+    width: 245px;
+    height: 48px;
+    border-color: #B88E2F;
+    color: #B88E2F;
+    font-size: 16px;
+    border: 2px solid;
+    background-color: white;
+    font-weight: 700;
+}
+.showme{
+    display: flex;
+    padding-top: 3vh;
+}

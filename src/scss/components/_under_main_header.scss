@@ -1,0 +1,130 @@
+.under_main {
+    background-color: #F9F1E7;
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vh;
+}
+
+.filter {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.filt {
+    font-size: 20px;
+}
+
+.select_show {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select {
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.select_show_2 {
+    width: 188px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .under_main {
+        width: 100%;
+        height: 80px;
+        padding: 0 10px;
+        margin-top: -3vh;
+        justify-content: space-between;
+    }
+
+    .filter {
+        gap: 15px;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .filt {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .select {
+        font-size: 16px;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .select_show {
+        width: 45px;
+        height: 45px;
+    }
+
+    .select_show_2 {
+        width: 150px;
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .under_main {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin-top: -3vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        box-sizing: border-box;
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .filt {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .select {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .select_show {
+        width: 40px;
+        height: 40px;
+    }
+
+    .select_show_2 {
+        width: 120px;
+        height: 40px;
+    }
+}

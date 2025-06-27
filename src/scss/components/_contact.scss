@@ -1,0 +1,44 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // width: 644px;
+    margin-top: 3vh;
+}
+.h1_contact{
+    font-size: 36px;
+    font-weight: 700;
+}
+.h2_contact{
+    font-size: 16px;
+    color: #9F9F9F;
+    width: 644px;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 3vh;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .h1_contact {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+
+    .h2_contact {
+        font-size: 14px;
+        color: #9F9F9F;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

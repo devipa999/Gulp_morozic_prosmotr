@@ -1,0 +1,75 @@
+.main_header {
+    background-image: url(/Gulp_morozic/assets/images/foto_shop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_main {
+    font-size: 48px;
+}
+
+.link_path {
+    display: flex;
+    gap: 6px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .main_header {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        background-size: cover;
+        background-position: center center;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title_main {
+        font-size: 32px;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .link_path {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .main_header {
+        width: 100%;
+        height: auto;
+        padding: 30px 15px;
+        background-size: cover;
+        background-position: center center;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title_main {
+        font-size: 24px;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .link_path {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+}

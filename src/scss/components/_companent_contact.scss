@@ -1,0 +1,36 @@
+.img_comp{
+    // height: 90px;
+    margin-top: 2%;
+}
+.companent {
+    display: flex;
+    gap: 30px;
+    width: 245px;
+    height: 100px;
+    // align-items: center;
+}
+
+.text_component {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.h1_compp {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.h2_component {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 193px;
+}
+
+.h2_comp {
+    font-size: 16px;
+    margin: 0;
+
+}
